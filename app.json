@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "360 Kids Activity",
+    "slug": "360kids-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light"
+  }
+}
