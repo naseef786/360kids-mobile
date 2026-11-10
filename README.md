@@ -36,3 +36,7 @@ All business permissions, booking transitions, payments and WhatsApp delivery li
 Next steps: Expo Router navigation, auth, family catalog and booking journey. WhatsApp communication preferences will connect to backend permissions; this app will not import contact databases or directly send campaign messages.
 
 EXPO_TEMPLATE_LICENSE.txt preserves the upstream template attribution.
+
+## Dependency audit — 10 November 2026
+
+Targeted minimatch/glob overrides address dependency advisories without changing the Expo SDK. TypeScript, clean Android JavaScript export and npm audit checks pass locally. The online SDK metadata request timed out; the offline check has reduced assurance. See `docs/DEPENDENCY_AUDIT.md`. This is still a starter, not a functional mobile booking app.
